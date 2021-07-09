@@ -21,14 +21,14 @@ export default function Header() {
           <div className="flex justify-center items-center mx-5"><p>FUTURE</p></div>
         </div>
       </div>
-		  <div className="flex flex-wrap justify-between bg-green-b">
+      <div className="flex flex-wrap justify-between bg-green-b">
         <div className="mx-24 my-52 font-serif tracking-widest">
           <p className="my-4 font-semibold text-3xl text-white">メインタイトル</p>
           <p className="font-semibold text-lg text-white">サブタイトル</p>
         </div>
         <div className="mx-12 my-8">
-			    <Image src={hero} alt="hero"></Image>
-        </div>
+          <Image src={hero} alt="hero"></Image>
+          </div>
       </div>
     </>
 	)
